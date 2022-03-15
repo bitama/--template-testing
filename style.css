@@ -20,7 +20,7 @@ body{
 }
 .quote-container{
     width:auto;
-    min-width: 900px;
+    max-width: 900px;
     padding: 20px 30px;
     border-radius:10px;
     background-color:rgba(255,255,255,0.4);
@@ -89,10 +89,15 @@ button:active{
 
 
 @media screen  and (max-width:1000px) {
-    .quote-container{
+    .quote-container,.button-container{
         margin: auto 15px;
+        width: 100%
+        
     }
     .quote-text{
-        font-size:1.5rem;
+        font-size:1rem;
+    }
+    .quote-author{
+        font-size:1rem;
     }
 }
