@@ -7,13 +7,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=udemy.com">
-    <title>Document</title>
+    <link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/eYvyVWClW7tJcaXuQTPp2Se10fj4fbpOX29JJ63TPcZsPDgN-NRoIseRH9K6VaOPESyroBvkaJfqSbmGQqlzEK3J1udv5vlKh34iwmhd-6eJ8bjCSfBq5kcUpDVTl-CdQk1mXKstWHC920DJASO08RkorlmZhiMaJeXAi45Jz5ymx6Lw_k9_PVoiWf4-6UNsVrjenQ18gEhL80iAoL8mk4WflQ_-jvvZJkBgizxGVXk5P3Gog1V0XFWk0pKP_tOWkAZQaJMfcaLE3mN08wQxXaOOFIUeKCOajGGFo9qjqL1AbP7afR0UNHGQEliC56VhFE3QXD5YZghAy0f-JPQQW9AqMwbwGswaElweI4aDW423CwndMKmPSXjjMnSDyDKLIL5qhPxYdokQxYilnxG6wSjE4xC7dNTvp-V6a5toaQp79cM53NOH9dBofEdf8HrlrqmKN9nvOWxChpbBRcWPPqYYsRok6QlBTpegg2mFgBrPS1f31R15HKiztJYLDXPCTJ_HVer-YZCDPTmcBamLpHwjW5ltdD5ID4oNfgLcePWrtXGYcts4DocqPJyXpMqUv1kUwWcJpH4YgoqcyewqFh_HZgX3kM-zUiX9BwpkNsZ8JP9kK0DUJPbN0oQ2vwnKZ8l4D1RXfDrGgf5mVUPREByvJeoESXBXrv9oGDl_OMrEAd73bXKRc69fBdJV7yApzTHf4PohML2PyrNOj72Vv_ORqA=w423-h937-no?authuser=0">
+    
+    <title>Quote Generator</title>
 </head>
 <body>
-    <h1>Hello World I am Patrick</h1>
+    <div class="quote-container" id="quote-container">
+        <div class="quote-text" id="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span class="quote" id="quote"></span>
+            <i class="fas fa-quote-right"></i>
+        </div>
+        <div class="quote-author" id="quote-author">
+            <span id="author"></span>
+        </div>
+        <div class="button-container">
+            <button class="twitter-button" id="twitter-button" title="Tweet This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button  class="new-quote" id="new-quote" title="Add a quote">New Quote</button>
+        </div>
+    </div>
+    <div class="loader" id="loader"></div>
     
     <!-- scripts -->
     <script src="script.js"></script>
+    <!-- https://www.google.com/s2/favicons?domain=udemy.com -->
 </body>
 </html>
